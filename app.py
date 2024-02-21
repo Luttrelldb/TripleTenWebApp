@@ -15,8 +15,9 @@ st.write('The Price dirstribution of the vheicles is very right skwed.')
 
 st.plotly_chart(fig_price_dirst)
 
-st.write('The most intresting trend is with the condition of the vehicles,  it seems that "good" contion is all that is required to get a good sale price for the veichles.') 
+st.write('The most interesting trend is with the condition of the vehicles,  it seems that "good" condition is all that is required to get a good sale price for the vehicles.') 
 
 fig_price_vs_condition = px.scatter(x=df_vehicles['condition'],y=df_vehicles['price'])
 
 st.plotly_chart(fig_price_vs_condition)
+
