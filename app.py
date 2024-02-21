@@ -20,5 +20,3 @@ st.write('The most intresting trend is with the condition of the vehicles,  it s
 fig_price_vs_condition = px.scatter(x=df_vehicles['condition'],y=df_vehicles['price'])
 
 st.plotly_chart(fig_price_vs_condition)
-
-
